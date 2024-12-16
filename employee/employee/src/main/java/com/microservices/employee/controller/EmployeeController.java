@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("employee")
+@RequestMapping("/employee")
 public class EmployeeController {
 
     @Autowired
@@ -19,8 +19,13 @@ public class EmployeeController {
         return employeeService.getAllEmployee();
     }
 
+    @GetMapping("/{id}")
+    public Employee getEmployeeById(@PathVariable Long id){
+        return this.employeeService.getEmployeeById(id);
+    }
+
     @PostMapping
-    public void createEmployee(@RequestBody Employee employee){
-        employeeService.createEmployee(employee);
+    public Employee createEmployee(@RequestBody Employee employee){
+        return employeeService.createEmployee(employee);
     }
 }
