@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/cart")
+@RequestMapping("/api/cart-item")
 public class CartController {
 
     @Autowired
@@ -21,6 +21,11 @@ public class CartController {
         List<Cart> cart = new ArrayList<>();
         cart = cartService.getAllCart();
         return ResponseEntity.ok(cart);
+    }
+
+    @PostMapping("/{userId}/cart-id={cartId}/{productId}quantity={quantity}")
+    public void addCartItem(@PathVariable Long userId, @PathVariable Long cartId, @PathVariable Long productId, @PathVariable Integer quantity) {
+        cartService.addProductToCart(userId, cartId, productId, quantity);
     }
 
 
