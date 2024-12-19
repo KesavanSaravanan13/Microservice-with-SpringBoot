@@ -1,26 +1,62 @@
 package com.microservice_example.cart.entity;
 
-import jakarta.persistence.*;
-import lombok.Data;
+import java.math.BigDecimal;
 
-@Entity
-@Table(name = "product")
-@Data
 public class Product {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String name;
-    private Double price;
+    private Long productId;
+    private String productName;
+    private String productCompany;
+    private BigDecimal productPrice;
+    private BigDecimal productQuantity;
+    private BigDecimal productDiscount;
 
+    public Long getProductId() {
+        return productId;
+    }
 
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+
+    public String getProductName() {
+        return productName;
+    }
+
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    public String getProductCompany() {
+        return productCompany;
+    }
+
+    public void setProductCompany(String productCompany) {
+        this.productCompany = productCompany;
+    }
+
+    public BigDecimal getProductPrice() {
+        return productPrice;
+    }
+
+    public void setProductPrice(BigDecimal productPrice) {
+        this.productPrice = productPrice;
+    }
+
+    public BigDecimal getProductQuantity() {
+        return productQuantity;
+    }
+
+    public void setProductQuantity(BigDecimal productQuantity) {
+        this.productQuantity = productQuantity;
+    }
+
+    public BigDecimal getProductDiscount() {
+        return productDiscount;
+    }
+
+    public void setProductDiscount(BigDecimal productDiscount) {
+        this.productDiscount = productDiscount;
     }
 }
+

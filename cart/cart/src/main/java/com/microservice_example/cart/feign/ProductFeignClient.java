@@ -1,6 +1,6 @@
 package com.microservice_example.cart.feign;
 
-import com.microservice_example.cart.entity.Product;
+import com.microservice_example.cartItem.entity.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -11,11 +11,10 @@ public class CartItem {
     private Long cartItemId;
     private LocalDateTime createdAt;
 
-    @ManyToOne
-    @JoinColumn(name = "product_id", nullable = false)
-    private Product product;
+    @Column
+    private Long productId;
 
-    @JoinColumn(name = "cart_id")
+    @JoinColumn(name = "cart_id",referencedColumnName = "cart_id")
     private Long cartId;
 
     private int quantity;
@@ -36,20 +35,12 @@ public class CartItem {
         this.createdAt = createdAt;
     }
 
-    public Product getProduct() {
-        return product;
+    public Long getProductId() {
+        return productId;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setProductId(Long product) {
+        this.productId = product;
     }
 
     public Long getCartId() {
@@ -60,4 +51,11 @@ public class CartItem {
         this.cartId = cartId;
     }
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }

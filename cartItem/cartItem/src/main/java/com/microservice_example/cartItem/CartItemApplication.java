@@ -1,13 +1,13 @@
-package com.microservice_example.cart;
+package com.microservice_example.cartItem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CartApplication {
+public class CartItemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CartApplication.class, args);
+		SpringApplication.run(CartItemApplication.class, args);
 	}
 
 }

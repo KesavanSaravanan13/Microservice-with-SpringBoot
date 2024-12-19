@@ -1,10 +1,10 @@
-package com.microservices.cart;
+package com.microservice_example.cartItem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CartApplicationTests {
+class CartItemApplicationTests {
 
 	@Test
 	void contextLoads() {

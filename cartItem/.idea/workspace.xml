@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e8ff176-78c0-408b-a46c-5f3af4ebcb7e" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/controller/CartItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/repository/CartItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/service/CartItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/cart.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/CartApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/feign/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/feign/ProductFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/feign/UserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/feign/UserFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/repository/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/repository/CartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/repository/UserRpository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/service/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/java/com/microservice_example/cart/service/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/cart/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/test/java/com/microservice_example/cart/CartApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/cart/src/test/java/com/microservices/cart/CartApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KesavanSaravanan13&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KesavanSaravanan13/Microservice-with-SpringBoot.git&quot;,
+    &quot;accountId&quot;: &quot;a9f739d3-cb3a-4837-81b6-e95e787167ec&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2qNwv70pn28y0fr9x5knLhwLLOc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CartApplication.executor": "Run",
+    "Application.CartItemApplication.executor": "Run",
+    "Maven.cart [clean].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/Microservices with SprigBoot/cartItem"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Downloads\cart\cart\src\main\java\com\microservice_example\cart" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservice_example.cart.entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CartItemApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.microservice_example.cartItem.CartItemApplication" />
+      <module name="cartItem" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e8ff176-78c0-408b-a46c-5f3af4ebcb7e" name="Changes" comment="" />
+      <created>1734516568974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734516568974</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1734582857907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734582857907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>
