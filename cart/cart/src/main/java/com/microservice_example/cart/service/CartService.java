@@ -1,7 +1,7 @@
 package com.microservice_example.cart.service;
 
-import com.microservice_example.cartItem.entity.Cart;
-import com.microservice_example.cartItem.repository.CartRepository;
+import com.microservice_example.cart.entity.Cart;
+import com.microservice_example.cart.repository.CartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -14,7 +14,6 @@ public class CartItem {
     @Column
     private Long productId;
 
-    @JoinColumn(name = "cart_id",referencedColumnName = "cart_id")
     private Long cartId;
 
     private int quantity;

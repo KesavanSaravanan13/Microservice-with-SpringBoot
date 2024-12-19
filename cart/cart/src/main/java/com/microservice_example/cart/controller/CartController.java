@@ -1,7 +1,7 @@
 package com.microservice_example.cart.controller;
 
-import com.microservice_example.cartItem.entity.Cart;
-import com.microservice_example.cartItem.service.CartService;
+import com.microservice_example.cart.entity.Cart;
+import com.microservice_example.cart.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
