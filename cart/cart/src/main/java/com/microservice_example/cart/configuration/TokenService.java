@@ -1,4 +1,4 @@
-package com.microservices.cart.configuration;
+package com.microservice_example.cart.configuration;
 
 import io.jsonwebtoken.JwtException;
 import org.springframework.beans.factory.annotation.Autowired;

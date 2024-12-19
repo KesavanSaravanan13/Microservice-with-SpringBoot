@@ -1,14 +1,14 @@
-package com.microservices.cart.feign;
+package com.microservice_example.cart.feign;
 
-import com.microservices.cart.entity.User;
+import com.microservice_example.cart.entity.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "user", url = "${user.service.url}"
+@FeignClient(name = "user", url = "${external.api.user-url}"
 //        configuration = FeignConfig.class
 )
 public interface UserFeign {
     @GetMapping("/user/{userId}")
-    User getUserById(@PathVariable Long userId);
+    public User getUserById(@PathVariable Long userId);
 }

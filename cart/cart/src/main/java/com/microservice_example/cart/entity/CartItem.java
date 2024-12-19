@@ -1,10 +1,6 @@
-package com.microservices.cart.entity;
+package com.microservice_example.cart.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import lombok.Data;
+import jakarta.persistence.*;
 
 import java.time.LocalDateTime;
 
@@ -15,7 +11,8 @@ public class CartItem {
     private Long cartItemId;
     private LocalDateTime createdAt;
 
-    @JoinColumn(name = "product")
+    @ManyToOne
+    @JoinColumn(name = "product_id", nullable = false)
     private Product product;
 
     @JoinColumn(name = "cart_id")

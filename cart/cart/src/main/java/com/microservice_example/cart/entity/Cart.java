@@ -1,7 +1,6 @@
-package com.microservices.cart.entity;
+package com.microservice_example.cart.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
 
 @Entity
 public class Cart {
@@ -9,6 +8,7 @@ public class Cart {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long cartId;
 
-    @JoinColumn(name="user")
-    private User userId;
+    @ManyToOne
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
 }

@@ -1,4 +1,4 @@
-package com.microservices.cart.configuration;
+package com.microservice_example.cart.configuration;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

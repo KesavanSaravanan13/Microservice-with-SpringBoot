@@ -1,4 +1,4 @@
-package com.microservices.cart.dto;
+package com.microservice_example.cart.dto;
 
 import lombok.Data;
 

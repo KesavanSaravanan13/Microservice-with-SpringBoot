@@ -1,6 +1,6 @@
-package com.microservices.cart.feign;
+package com.microservice_example.cart.feign;
 
-import com.microservices.cart.entity.Product;
+import com.microservice_example.cart.entity.Product;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface ProductFeignClient {
 
     @GetMapping("/product/{productId}")
-    Product getProductById(@PathVariable("productId") Long productId);
+    public Product getProductById(@PathVariable Long productId);
 }

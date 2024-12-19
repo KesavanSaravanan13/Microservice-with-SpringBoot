@@ -1,7 +1,8 @@
-package com.microservices.cart.controller;
+package com.microservice_example.cart.controller;
 
-import com.microservices.cart.entity.Cart;
-import com.microservices.cart.service.CartService;
+import com.microservice_example.cart.entity.Cart;
+import com.microservice_example.cart.entity.User;
+import com.microservice_example.cart.service.CartService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -23,10 +24,12 @@ public class CartController {
         return ResponseEntity.ok(cart);
     }
 
-    @PostMapping("/{userId}/cart-id={cartId}/{productId}quantity={quantity}")
-    public void addCartItem(@PathVariable Long userId, @PathVariable Long cartId, @PathVariable Long productId, @PathVariable Integer quantity) {
-        cartService.addProductToCart(userId, cartId, productId, quantity);
+    @PostMapping("/{userId}/cart/{cartId}/product/{productId}/quantity/{quantity}")
+    public User addCartItem(@PathVariable Long userId, @PathVariable Long cartId, @PathVariable Long productId, @PathVariable Integer quantity) {
+        return cartService.addProductToCart(userId, cartId, productId, quantity);
     }
+
+
 
 
 }
