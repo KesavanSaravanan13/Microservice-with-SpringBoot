@@ -1,4 +1,4 @@
-package com.microservice_example.cart.entity;
+package com.microservice_example.cartItem.entity;
 
 import java.math.BigDecimal;
 

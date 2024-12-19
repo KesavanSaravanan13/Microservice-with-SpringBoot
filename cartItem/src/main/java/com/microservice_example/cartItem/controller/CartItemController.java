@@ -1,4 +1,4 @@
-package com.microservice_example.cart.controller;
+package com.microservice_example.cartItem.controller;
 
 import com.microservice_example.cartItem.entity.CartItem;
 import com.microservice_example.cartItem.service.CartItemService;

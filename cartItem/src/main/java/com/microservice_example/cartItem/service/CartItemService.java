@@ -1,12 +1,10 @@
-package com.microservice_example.cart.service;
+package com.microservice_example.cartItem.service;
 
 
 import com.microservice_example.cartItem.entity.CartItem;
 import com.microservice_example.cartItem.entity.Product;
 import com.microservice_example.cartItem.feign.ProductFeignClient;
-import com.microservice_example.cartItem.feign.UserFeign;
 import com.microservice_example.cartItem.repository.CartItemRepository;
-import com.microservice_example.cartItem.repository.CartRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

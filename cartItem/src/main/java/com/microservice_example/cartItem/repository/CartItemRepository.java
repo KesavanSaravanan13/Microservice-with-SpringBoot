@@ -1,4 +1,4 @@
-package com.microservice_example.cart.repository;
+package com.microservice_example.cartItem.repository;
 
 import com.microservice_example.cartItem.entity.CartItem;
 import org.springframework.data.jpa.repository.JpaRepository;

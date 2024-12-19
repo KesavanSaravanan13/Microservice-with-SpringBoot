@@ -1,4 +1,4 @@
-package com.microservice_example.cart.feign;
+package com.microservice_example.cartItem.feign;
 
 import com.microservice_example.cartItem.entity.Product;
 import org.springframework.cloud.openfeign.FeignClient;
